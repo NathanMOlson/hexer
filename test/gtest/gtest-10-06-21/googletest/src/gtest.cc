@@ -75,12 +75,10 @@
 #elif GTEST_OS_WINDOWS_MOBILE  // We are on Windows CE.
 
 # include <windows.h>  // NOLINT
-# undef min
 
 #elif GTEST_OS_WINDOWS  // We are on Windows proper.
 
 # include <windows.h>  // NOLINT
-# undef min
 
 #ifdef _MSC_VER
 # include <crtdbg.h>  // NOLINT

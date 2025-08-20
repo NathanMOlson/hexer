@@ -12,10 +12,6 @@
 #include <lazperf/las.hpp>
 #include <h3/include/h3api.h>
 
-#ifdef _WINDOWS_
-# undef min
-# undef max
-#endif
 
 namespace hexer {
 

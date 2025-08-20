@@ -50,10 +50,6 @@
 
 #include <hexer/Mathpair.hpp>
 
-#ifdef _WINDOWS_
-# undef min
-# undef max
-#endif
 
 namespace hexer
 {
