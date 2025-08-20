@@ -37,6 +37,7 @@
 #include <cmath>
 #include <map>
 #include <chrono>
+#include <algorithm>
 
 #include <hexer/Processor.hpp>
 
